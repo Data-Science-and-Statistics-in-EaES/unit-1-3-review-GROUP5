@@ -38,6 +38,9 @@ glimpse(location_descriptions)
 glimpse(density)
 glimpse(solubility_hardness)
 ```
+- There are `r nrow(location_descriptions)` observations and `r ncol(location_descriptions)` variables in `location_descriptions`
+- There are `r nrow(density)` observations and `r ncol(density)` variables in `density`
+- There are `r nrow(solubility_hardness)` observations and `r ncol(solubility_hardness)` variables in `solubility_hardness`
 
 ### Exercise 3
 
