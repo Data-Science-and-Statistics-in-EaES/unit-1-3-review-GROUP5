@@ -51,10 +51,9 @@ For solubility_hardness, each row represents a mineral (chr), its associated sol
 
 ### Exercise 3
 
-Remove this text, and add your answer for Exercise 3 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```{r join-mineral-properties}
+
+```
 
 ### Exercise 4
 
