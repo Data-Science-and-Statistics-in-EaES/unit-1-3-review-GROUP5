@@ -52,7 +52,8 @@ For solubility_hardness, each row represents a mineral (chr), its associated sol
 ### Exercise 3
 
 ```{r join-mineral-properties}
-
+sand_mineral_density <- sand_minerals %>%
+    left_join(density)
 ```
 
 ### Exercise 4
