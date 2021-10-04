@@ -37,6 +37,9 @@ Each row contains the minerals (Quart/Feldspar/Biotite) found in each location n
 glimpse(location_descriptions)
 glimpse(density)
 glimpse(solubility_hardness)
+names(location_descriptions)
+names(density)
+names(solubility_hardness)
 ```
 - There are `r nrow(location_descriptions)` observations and `r ncol(location_descriptions)` variables in `location_descriptions`
 - There are `r nrow(density)` observations and `r ncol(density)` variables in `density`
