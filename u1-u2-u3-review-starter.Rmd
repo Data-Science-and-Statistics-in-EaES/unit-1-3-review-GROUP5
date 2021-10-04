@@ -27,6 +27,7 @@ glimpse(sand_minerals)
 
 ```
 
+There are 23 rows and 2 variables in `sand_minerals`
 
 ### Exercise 2
 
