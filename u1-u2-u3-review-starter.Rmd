@@ -42,6 +42,10 @@ glimpse(solubility_hardness)
 - There are `r nrow(density)` observations and `r ncol(density)` variables in `density`
 - There are `r nrow(solubility_hardness)` observations and `r ncol(solubility_hardness)` variables in `solubility_hardness`
 
+For location_descriptions, each row represents both a location (double) and a description of that location (character).
+For density, each row represents one mineral (chr) and its associated density value (dbl). 
+For solubility_hardness, each row represents a mineral (chr), its associated solubility (chr), and hardness value (dbl).
+
 ### Exercise 3
 
 Remove this text, and add your answer for Exercise 3 here.
