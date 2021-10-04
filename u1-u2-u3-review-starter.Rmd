@@ -32,6 +32,9 @@ There are 23 rows and 2 variables in `sand_minerals`
 Each row contains the minerals (Quart/Feldspar/Biotite) found in each location number (1 - 10).
 
 ### Exercise 2
+```{r inspect-other-dataframes}
+
+```
 
 
 
