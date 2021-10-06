@@ -55,6 +55,7 @@ For solubility_hardness, each row represents a mineral (chr), its associated sol
 sand_mineral_density <- sand_minerals %>%
     left_join(density)
 ```
+There are 23 rows in sand_mineral_density. It has the same amount of rows as sand_minerals.
 
 ### Exercise 4
 
