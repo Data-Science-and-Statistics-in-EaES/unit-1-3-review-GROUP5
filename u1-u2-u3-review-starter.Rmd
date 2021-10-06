@@ -108,5 +108,5 @@ Do not use spaces in code chunk labels.
 
 ### Exercise 7
 ``` {r starwars-heights, eval = FALSE}
-ggplot(starwars, )
+ggplot(starwars, aes(x = height))
 ```
