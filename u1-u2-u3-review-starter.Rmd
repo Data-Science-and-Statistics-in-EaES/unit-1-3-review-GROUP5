@@ -54,7 +54,8 @@ For solubility_hardness, each row represents a mineral (chr), its associated sol
 ```{r join-mineral-properties}
 sand_mineral_density <- sand_minerals %>%
     left_join(density)
-   sand_mineral_density %>%
+
+sand_mineral_properties <- sand_mineral_density %>%
   left_join(solubility_hardness)
 ```
 There are 23 rows in sand_mineral_density. It has the same amount of rows as sand_minerals
