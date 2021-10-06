@@ -84,6 +84,12 @@ sand_mineral_properties %>%
 
 ```
 
+```{r remove-na-hardness}
+sand_mineral_properties %>% 
+  filter(!is.na(hardness)) %>% 
+  arrange(desc(density)) %>% 
+  slice_head(n = 5)
+```
 
 
 ### Exercise 5
