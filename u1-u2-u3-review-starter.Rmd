@@ -71,6 +71,11 @@ sand_minerals %>%
 slice_tail(sand_mineral_properties, n = 10)
 ```
 
+```{r bottom-10-density}
+sand_mineral_properties %>% 
+  arrange(desc(density)) %>% 
+  slice_tail(n = 10)
+```
 
 
 ### Exercise 5
