@@ -107,6 +107,12 @@ Don't forget to label your code chunk.
 Do not use spaces in code chunk labels.
 
 ### Exercise 7
-``` {r starwars-heights, eval = FALSE}
-ggplot(starwars, aes(x = height))
+``` {r starwars-heights, warning = F, eval = T}
+ggplot(starwars, aes(x = height)) +
+  geom_histogram() +
+  labs(
+    title = "Star Wars Heights"
+  ) +
+  xlab("height") +
+  ylab("count")
 ```
