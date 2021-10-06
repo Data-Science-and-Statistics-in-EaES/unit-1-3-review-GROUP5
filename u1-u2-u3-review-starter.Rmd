@@ -77,6 +77,14 @@ sand_mineral_properties %>%
   slice_tail(n = 10)
 ```
 
+```{r bottom-five-sand-properties}
+sand_mineral_properties %>%
+  select(1,5) %>%
+  slice_tail(n = 5)
+
+```
+
+
 
 ### Exercise 5
 
