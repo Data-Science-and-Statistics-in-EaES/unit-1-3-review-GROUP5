@@ -62,10 +62,16 @@ There are 23 rows in sand_mineral_density. It has the same amount of rows as san
 
 ### Exercise 4
 
-Remove this text, and add your answer for Exercise 4 here.
-Add code chunks as needed.
-Don't forget to label your code chunk.
-Do not use spaces in code chunk labels.
+```{r sand_mineral_properties}
+sand_minerals %>%
+  count(location)
+```
+
+```{r bottom-10-sand-properties}
+slice_tail(sand_mineral_properties, n = 10)
+```
+
+
 
 ### Exercise 5
 
